@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T11:11:50.669Z",
+  "generated_at": "2026-10-10T11:16:39.506Z",
   "items": {
     "lab:9": {
       "kind": "lab",
@@ -49,7 +49,7 @@
       "url": "https://www.deep-ml.com/labs/6",
       "path": "labs/0006-mnist-build-neural-network-from-scratch-numpy-only",
       "first_solved_at": "2026-10-10T11:11:49.706Z",
-      "last_pushed_at": "2026-10-10T11:11:49.706Z",
+      "last_pushed_at": "2026-10-10T11:16:38.900Z",
       "language": "python",
       "lines": 123
     }

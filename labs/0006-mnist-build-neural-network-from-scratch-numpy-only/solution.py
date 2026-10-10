@@ -76,7 +76,7 @@ class NeuralNetwork:
         y_one_hot = np.zeros((probs.shape))
         y_one_hot[np.arange(X.shape[0]), y] = 1
 
-        grad_loss_z2 = probs - y_one_hot #N X 10
+        grad_loss_z2 = (probs - y_one_hot)/N #N X 10
         grad_loss_w2 = self.cache['h1'].T @ grad_loss_z2  #128 X 10
         grad_loss_b2 = np.sum(grad_loss_z2, axis=0, keepdims=True) #1 X 10
         grad_loss_h1 = grad_loss_z2 @ self.w2.T #N X 128
